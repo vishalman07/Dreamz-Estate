@@ -1,5 +1,20 @@
-@media only screen and (max-width: 600px) {
-    .Logo{
-      position: absolute;
+@media only screen and (max-width: 500px) {
+    body{
+      width: 415px;
     }
+    .Logo{
+      position: inherit;
+    }
+    .images{
+      position: relative;
+      top: -29pc;
+  }
+  .images img{
+    width: 100px;
+  }
+  #btn-lg{
+    position: relative;
+    left: 114px;
+    bottom: 234px;
+  }
   }
